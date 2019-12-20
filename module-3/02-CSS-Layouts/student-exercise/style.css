@@ -1,0 +1,102 @@
+:root {
+    --blue: #00adee;
+    --grey: #505355;
+}
+
+* {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    background-color:rgba(192, 192, 192, 0.1);
+    font-size: 16px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+img {
+    max-width: 100%;
+}
+
+#student-grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "head         head       logo" 
+    "body         body       logo-info" 
+    "experience   experience experience";
+    column-gap: 20px;
+}
+p{
+    color: var(--grey);
+}
+header {
+    display: float;
+    max-width: 10%;
+}
+
+
+.headline {
+    line-height: 0ch;
+    display: float;
+    font-size: 50px;
+}
+
+div#student-quote {
+    grid-area: head;
+}
+
+div#student-picture {
+    grid-area: logo;
+}
+
+div#student-contact {
+    grid-area: logo-info;
+}
+
+div#student-profile {
+    grid-area: body;
+}
+
+div#experience {
+    display: flex;
+    grid-area: experience;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#experience div {
+    padding: 15px;
+    width: 33%;
+}
+
+div#experience div h3 {
+    color: var(--blue);
+}
+
+div#experience div i {
+    padding-right: 15px;
+}
+
+#student-quote h2 {
+    padding-top: 1em;
+    align-content: f;
+}
+
+main img {
+    max-width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#student-contact p {
+    text-align: center;
+}
+
+footer {
+    font-size: 10px;
+}

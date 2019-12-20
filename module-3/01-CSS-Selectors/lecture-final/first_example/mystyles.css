@@ -1,0 +1,19 @@
+* {
+    background-color: gray;
+}
+
+#thatThing {
+    color: purple;
+}
+
+div {
+    color: blue;
+}
+
+div.fun {
+    color: yellow;
+}
+
+:last-child {
+    color: pink;
+}

@@ -1,0 +1,25 @@
+List
+	add(item) or (index,item)
+	get(index)
+	remove(item) or remove(index)
+	
+Queue - FIFO
+	offer 
+	poll - gets the next item and removes it
+	peek (looks at what's next to poll but doesn't actually remove it)
+	
+Stack - LIFO
+	push 
+	pop - gets the next item and removes it
+	peek (looks at what's next to pop but doesn't actually remove it)
+
+Map
+	put (adds or updates)
+	remove
+	get(key) this will return the value associated with the key
+	keySet will return all of the keys in the Map as set
+	
+Set
+	add (if it already exists it doesn't duplicate or error)
+	remove
+	contains returns true or false if the item is in the set
